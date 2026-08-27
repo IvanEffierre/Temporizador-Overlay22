@@ -176,15 +176,22 @@ Entre os principais componentes encontram-se:
 
 Esta versão corresponde à versão final disponibilizada para utilização.
 
-## 👨‍💻 Autor
+---
 
-**Valdivan F. Ramos**
+## 🧩 Perfil e Propósito Profissional
 
-Desenvolvedor e profissional da área de Tecnologia da Informação, com atuação e formação multidisciplinar nas áreas de desenvolvimento de software, redes de computadores, dados, computação em nuvem, Internet das Coisas e tecnologias aplicadas à educação.
+### 🎓 Autor  
+**Valdivan F. Ramos** – Especialista em Ciência de Dados e Big Data Analytics. Atuação com foco em análise de dados aplicada à educação, desenvolvimento técnico-científico e construção de ferramentas interativas que orientam a tomada de decisão.
 
-## 📚 Propósito
+---
 
-O Temporizador Overlay foi desenvolvido com o propósito de disponibilizar uma ferramenta prática para controle visual do tempo, combinando simplicidade de utilização, portabilidade e interface gráfica. O projeto também representa uma aplicação prática de conceitos de desenvolvimento de software, interface gráfica, organização de projetos e distribuição de aplicações executáveis.
+### 📚 Educação com Propósito  
+> “Ensinar linguagens de programação é mais do que ensinar algoritmos e códigos.  
+> É educar mentes capazes de resolver problemas complexos da realidade, unindo teoria e prática, sem desprezar os valores humanos.  
+> Mas educação e valores só fazem sentido quando estão a serviço da sociedade.”  
+> — Valdivan F. Ramos
+
+---
 
 ## 📄 Referência para Currículo Lattes
 
@@ -194,6 +201,7 @@ O Temporizador Overlay foi desenvolvido com o propósito de disponibilizar uma f
 
 **Ano:** 2026
 
-**Descrição:** Desenvolvimento de software portátil para controle regressivo/progressivo de tempo com apresentação em formato Overlay (sobreposto a outros aplicativos), interface gráfica, documentação integrada, EULA e distribuição gratuita de versão executável para ambiente Windows.
+**Descrição:** Desenvolvimento de software portátil para controle regressivo/progressivo de tempo com apresentação em formato Overlay (sobreposto a outros aplicativos), interface gráfica, documentação integrada, EULA e distribuição gratuita de versão executável para ambiente Windows. Considerado Produção de Educação e Popularização de C & T por conter código-fonte aberto, destinado ao estudo e aprimoramento de técnicas de desenvolvimento em Linguagem de Programação.
 
-**Repositório:**  https://github.com/IvanEffierre/Temporizador-Overlay22
+**Repositório:**  https://github.com/IvanEffierre/Temporizador-Overlay
+
