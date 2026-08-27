@@ -53,10 +53,11 @@ O Temporizador Overlay possui funcionamento **portátil**, não exigindo um proc
 
 1. Para utilizar o programa, **basta baixar a versão executável disponibilizada como Release no GitHub** e executar o arquivo correspondente.
 2. Essa característica facilita sua utilização em diferentes computadores, respeitando os requisitos de compatibilidade do ambiente do S.O. Windows.
+3. O menu Releases está localizado na barra lateral direita do repostório.
 
 ## ▶️ Como Utilizar (Executável sem Instalação)
 Obs.: Esta seção é destina a você que deseja utilizar o programa já pronto em seus trabalhos. Aqui o passo-a-passo é extrair e usar!
-1. Baixe a versão executável do Temporizador Overlay (pasta zipada dentro de Release)
+1. Baixe a versão executável do Temporizador Overlay (pasta zipada dentro do menu Releases)
 2. Extraia os arquivos, pois a versão disponibilizada está compactada.
 3. Execute o arquivo `Temporizador-Overlay.exe`.
 4. Na primeira execução, leia os termos apresentados no EULA.
@@ -88,6 +89,8 @@ Passo-a-passo:
 13. Lembre-se de manter os créditos após a modificação, seguindo os Termos da Licença MIT;
 14. Eventualmente, adicione uma seção com seus créditos após uma modificação;
 15. Se distribuir, faça-o sempre como software livre, sempre gratuito!
+
+> Penso em contribuições fururas: adicionar controle de transparência, controle de cores, tamanho da visualização do temporizador, temporizador central-inicial, mensagem de alerta na tela do Overlay. No momento do desenvolvimento estas funcionalidades não eram necessárias, mas talvéz seja para alguém.
 
 ## 📖 Guia de Uso
 
@@ -181,9 +184,8 @@ Esta versão corresponde à versão final disponibilizada para utilização.
 ## 🧩 Perfil e Propósito Profissional
 
 ### 🎓 Autor  
-**Valdivan F. Ramos** – Especialista em Ciência de Dados e Big Data Analytics. Atuação com foco em análise de dados aplicada à educação, desenvolvimento técnico-científico e construção de ferramentas interativas que orientam a tomada de decisão.
+**Valdivan F. Ramos** – 📌Analista de Sistemas Multidisciplinar | Mestrando em Eng. de Sistemas e Produtos | Docência/Pesquisa/Gestão | Eng. de Requisitos/CC | Ciência de Dados/Big Data | Dir. Digital/Compliance/LGPD | Redes/IoT/IIoT. Atuação com foco em análise de dados aplicada à educação, desenvolvimento técnico-científico e construção de ferramentas interativas que orientam a tomada de decisão.
 
----
 
 ### 📚 Educação com Propósito  
 > “Ensinar linguagens de programação é mais do que ensinar algoritmos e códigos.  
