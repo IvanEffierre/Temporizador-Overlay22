@@ -1,0 +1,48 @@
+﻿# Contrato de Licença de Usuário Final (EULA)
+
+**Software:** Temporizador Overlay
+**Versão:** 1.0
+**Autor:** Valdivan Ramos
+**Ano:** 2026
+
+## 1. Aceitação
+
+Ao instalar, executar ou utilizar o software **Temporizador Overlay**, o usuário declara que leu e concorda com os termos deste Contrato de Licença de Usuário Final (EULA).
+
+## 2. Licença
+
+O **Temporizador** é distribuído sob a **Licença MIT**, disponível no arquivo `LICENSE` que acompanha o software e no repositório oficial do projeto.
+
+Nos termos da Licença MIT, é permitido utilizar, copiar, modificar, publicar, distribuir (sempre gratuitamente) e incorporar este software em outros projetos, desde que o aviso de copyright e o texto da licença sejam preservados. É expressamente proibida a venda desde software Temporizador-Overlay sem a autorização do detentor dos direitos autorais.
+
+## 3. Código-fonte
+
+O código-fonte oficial do software está disponível publicamente no GitHub do desenvolvedor (https://github.com/IvanEffierre).
+
+## 4. Limitação de responsabilidade
+
+O software é fornecido **“como está” (AS IS)**, sem qualquer garantia, expressa ou implícita, incluindo, mas não se limitando, às garantias de comercialização, adequação a um propósito específico e ausência de violação de direitos.
+
+Em nenhuma hipótese o autor será responsável por perdas de dados, interrupções de atividades, falhas durante apresentações, eventos, transmissões, aulas ou qualquer dano direto ou indireto decorrente do uso ou da impossibilidade de uso do software.
+
+## 5. Privacidade
+
+O **Temporizador Overlay** não coleta, armazena, transmite ou compartilha automaticamente dados pessoais do usuário.
+
+## 6. Distribuição
+
+Versões modificadas podem ser distribuídas de acordo com os termos da Licença MIT, desde que os avisos de copyright e licença sejam mantidos.
+
+## 7. Direitos autorais
+
+**Copyright (c) 2026 Valdivan Ramos**
+
+Todos os direitos autorais sobre o software pertencem ao autor. A Licença MIT concede permissões amplas de uso, mas não transfere a titularidade dos direitos autorais.
+
+## 8. Foro
+
+Este contrato será interpretado de acordo com as leis da República Federativa do Brasil. Fica eleito o foro da comarca de **Salvador, Bahia**, para dirimir eventuais controvérsias decorrentes deste contrato.
+
+---
+
+Ao utilizar o software, o usuário confirma que compreendeu e aceita os termos acima.
