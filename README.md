@@ -68,8 +68,7 @@ Obs.: Esta seção é destina a você que deseja utilizar o programa já pronto 
 
 
 ## ▶️ Como Utilizar (Utilizar o Projeto via Código-Fonte)
-Obs.: Esta seção é destina a você que é desenvolvedor e deseja ver, usar, modificar o projeto. Lembre-se, que **software é livre** para utilização, mas a **Licença aplicada não permite a venda, mesmo após a modificação.** 
-
+Obs.: Esta seção é destina a você que é desenvolvedor e deseja ver, usar, modificar o projeto. Lembre-se de que o Software pode ser utilizado, estudado, modificado e distribuído gratuitamente, desde que sejam respeitados os termos da licença aplicável, que não permite sua comercialização sem autorização.
 A ideia aqui é: BAIXOU GRATUITAMENTE... DISTRIBUI GRATUITAMENTE! **Se concordar, siga em frente** para o passo-a-passo de utilização do projeto completo descrito nesta seção. Caso contrário, abandone a ideia de utilização!
 
 Passo-a-passo:
@@ -86,9 +85,9 @@ Passo-a-passo:
 10. No Visual Studio, clique em Compilar → Compilar Solução para verificar se o projeto pode ser compilado;
 11. Após a compilação, clique em Iniciar ou pressione F5 para executar o projeto;
 12. A aplicação Temporizador Overlay será iniciada para testes e utilização;
-13. Lembre-se de manter os créditos após a modificação, seguindo os Termos da Licença MIT;
+13. Lembre-se de manter os créditos após a modificação, seguindo os termos da Licença de Uso, Distribuição e Modificação;
 14. Eventualmente, adicione uma seção com seus créditos após uma modificação;
-15. Se distribuir, faça-o sempre como software livre, sempre gratuito!
+15. Se distribuir, faça-o gratuitamente e respeite integralmente os termos da licença aplicável!
 
 > Penso em contribuições fururas: adicionar controle de transparência, controle de cores, tamanho da visualização do temporizador, temporizador central-inicial, mensagem de alerta na tela do Overlay. No momento do desenvolvimento estas funcionalidades não eram necessárias, mas talvéz seja para alguém.
 
@@ -116,7 +115,7 @@ A aplicação registra a confirmação de aceite nas configurações do usuário
 
 ## 📜 Licença
 
-O código-fonte deste projeto é disponibilizado sob os termos da **Licença MIT**.
+O código-fonte deste projeto é disponibilizado sob os termos da Licença de Uso, Distribuição e Modificação do Temporizador-Overlay..
 
 Consulte o arquivo:
 
@@ -203,7 +202,7 @@ Esta versão corresponde à versão final disponibilizada para utilização.
 
 **Ano:** 2026
 
-**Descrição:** Desenvolvimento de software portátil para controle regressivo/progressivo de tempo com apresentação em formato Overlay (sobreposto a outros aplicativos), interface gráfica, documentação integrada, EULA e distribuição gratuita de versão executável para ambiente Windows. Considerado Produção de Educação e Popularização de C & T por conter código-fonte aberto, destinado ao estudo e aprimoramento de técnicas de desenvolvimento em Linguagem de Programação.
+**Descrição:** Desenvolvimento de software portátil para controle regressivo/progressivo de tempo com apresentação em formato Overlay (sobreposto a outros aplicativos), interface gráfica, documentação integrada, EULA e distribuição gratuita de versão executável para ambiente Windows. Considerado Produção de Educação e Popularização de C & T por disponibilizar publicamente seu código-fonte para estudo e aprimoramento de técnicas de desenvolvimento em linguagem de programação.
 
 **Repositório:**  https://github.com/IvanEffierre/Temporizador-Overlay
 
