@@ -29,7 +29,7 @@ O aplicativo foi desenvolvido com interface gráfica própria e funciona de mane
 - 📄 Exibição e aceite do EULA na primeira utilização;
 - 💾 Persistência da confirmação de aceite do EULA;
 - 🚫 Funcionamento sem necessidade de instalação;
-- 🖥️ Software livre, gratuito e testado;
+- 🖥️ Software gratuito e testado;
 - 🚫 Funcionamento sem coleta de dados do usuário ou objetivos escusos;
 
 ## 🛠️ Tecnologias Utilizadas
