@@ -144,6 +144,7 @@ Partial Class FormGuiaUso
         ShowInTaskbar = False
         StartPosition = FormStartPosition.CenterParent
         Text = "FormGuiaUso"
+        TopMost = True
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         ResumeLayout(False)

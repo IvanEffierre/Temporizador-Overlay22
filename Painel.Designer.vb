@@ -42,6 +42,7 @@ Partial Class Painel
         btnFade = New Button()
         btnRepetir = New Button()
         GroupBox2 = New GroupBox()
+        btnCountdown = New Button()
         Panel1 = New Panel()
         GroupBox3 = New GroupBox()
         Button4 = New Button()
@@ -49,9 +50,13 @@ Partial Class Painel
         Button2 = New Button()
         Button1 = New Button()
         Label5 = New Label()
+        btnPosicinaContadorPub = New Button()
+        GroupBox4 = New GroupBox()
         GroupBox1.SuspendLayout()
         GroupBox2.SuspendLayout()
+        Panel1.SuspendLayout()
         GroupBox3.SuspendLayout()
+        GroupBox4.SuspendLayout()
         SuspendLayout()
         ' 
         ' Label1
@@ -75,7 +80,7 @@ Partial Class Painel
         ' contador2
         ' 
         contador2.Font = New Font("Segoe UI", 38F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        contador2.Location = New Point(3, 239)
+        contador2.Location = New Point(3, 212)
         contador2.Name = "contador2"
         contador2.Size = New Size(450, 63)
         contador2.TabIndex = 1
@@ -88,7 +93,7 @@ Partial Class Painel
         btnPlay.Enabled = False
         btnPlay.Font = New Font("Segoe UI", 12F)
         btnPlay.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
-        btnPlay.Location = New Point(110, 314)
+        btnPlay.Location = New Point(126, 5)
         btnPlay.Name = "btnPlay"
         btnPlay.Size = New Size(239, 36)
         btnPlay.TabIndex = 2
@@ -99,7 +104,7 @@ Partial Class Painel
         ' 
         horaT.Enabled = False
         horaT.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        horaT.Location = New Point(77, 53)
+        horaT.Location = New Point(80, 47)
         horaT.Margin = New Padding(100)
         horaT.MaxLength = 2
         horaT.Name = "horaT"
@@ -113,7 +118,7 @@ Partial Class Painel
         ' 
         minutoT.Enabled = False
         minutoT.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        minutoT.Location = New Point(163, 53)
+        minutoT.Location = New Point(163, 47)
         minutoT.Margin = New Padding(100)
         minutoT.MaxLength = 2
         minutoT.Name = "minutoT"
@@ -127,7 +132,7 @@ Partial Class Painel
         ' 
         segundoT.Enabled = False
         segundoT.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        segundoT.Location = New Point(247, 53)
+        segundoT.Location = New Point(244, 47)
         segundoT.Margin = New Padding(100)
         segundoT.MaxLength = 2
         segundoT.Name = "segundoT"
@@ -141,7 +146,7 @@ Partial Class Painel
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(76, 29)
+        Label2.Location = New Point(76, 23)
         Label2.Name = "Label2"
         Label2.Size = New Size(54, 25)
         Label2.TabIndex = 4
@@ -151,7 +156,7 @@ Partial Class Painel
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(163, 29)
+        Label3.Location = New Point(163, 23)
         Label3.Name = "Label3"
         Label3.Size = New Size(46, 25)
         Label3.TabIndex = 4
@@ -161,7 +166,7 @@ Partial Class Painel
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label4.Location = New Point(247, 29)
+        Label4.Location = New Point(247, 23)
         Label4.Name = "Label4"
         Label4.Size = New Size(43, 25)
         Label4.TabIndex = 4
@@ -170,8 +175,9 @@ Partial Class Painel
         ' btnConfigurar
         ' 
         btnConfigurar.BackColor = Color.FromArgb(CByte(255), CByte(192), CByte(192))
+        btnConfigurar.Font = New Font("Segoe UI", 12F)
         btnConfigurar.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
-        btnConfigurar.Location = New Point(78, 94)
+        btnConfigurar.Location = New Point(78, 83)
         btnConfigurar.Name = "btnConfigurar"
         btnConfigurar.Size = New Size(239, 36)
         btnConfigurar.TabIndex = 4
@@ -190,10 +196,10 @@ Partial Class Painel
         GroupBox1.Controls.Add(Label2)
         GroupBox1.Controls.Add(segundoT)
         GroupBox1.FlatStyle = FlatStyle.Flat
-        GroupBox1.Font = New Font("Segoe UI", 12F)
-        GroupBox1.Location = New Point(37, 64)
+        GroupBox1.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        GroupBox1.Location = New Point(37, 56)
         GroupBox1.Name = "GroupBox1"
-        GroupBox1.Size = New Size(383, 170)
+        GroupBox1.Size = New Size(383, 153)
         GroupBox1.TabIndex = 5
         GroupBox1.TabStop = False
         GroupBox1.Text = "Configurar Tempo"
@@ -208,13 +214,13 @@ Partial Class Painel
         CheckBox1.FlatAppearance.BorderSize = 5
         CheckBox1.Font = New Font("Segoe UI", 10F)
         CheckBox1.ForeColor = Color.White
-        CheckBox1.Location = New Point(95, 136)
+        CheckBox1.Location = New Point(80, 122)
         CheckBox1.Margin = New Padding(0)
         CheckBox1.Name = "CheckBox1"
         CheckBox1.Padding = New Padding(8, 1, 1, 1)
-        CheckBox1.Size = New Size(205, 25)
+        CheckBox1.Size = New Size(233, 25)
         CheckBox1.TabIndex = 5
-        CheckBox1.Text = "Permitir Estouro de Tempo?"
+        CheckBox1.Text = "  Permitir Estouro de Tempo?     "
         CheckBox1.UseVisualStyleBackColor = False
         ' 
         ' labelInfo
@@ -222,7 +228,7 @@ Partial Class Painel
         labelInfo.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         labelInfo.Font = New Font("Segoe UI", 10F)
         labelInfo.ForeColor = Color.Red
-        labelInfo.Location = New Point(3, 239)
+        labelInfo.Location = New Point(3, 212)
         labelInfo.Name = "labelInfo"
         labelInfo.Size = New Size(447, 63)
         labelInfo.TabIndex = 6
@@ -237,24 +243,24 @@ Partial Class Painel
         ' btnFade
         ' 
         btnFade.BackColor = Color.FromArgb(CByte(255), CByte(192), CByte(192))
-        btnFade.Font = New Font("Segoe UI", 8F)
+        btnFade.Font = New Font("Segoe UI", 12F)
         btnFade.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
-        btnFade.Location = New Point(101, 69)
+        btnFade.Location = New Point(104, 23)
         btnFade.Margin = New Padding(0)
         btnFade.Name = "btnFade"
-        btnFade.Size = New Size(167, 41)
+        btnFade.Size = New Size(239, 38)
         btnFade.TabIndex = 2
-        btnFade.Text = "      Esconder / Mostrar       Contador Público"
+        btnFade.Text = "Esconder Contador Público"
         btnFade.UseVisualStyleBackColor = False
         ' 
         ' btnRepetir
         ' 
         btnRepetir.BackColor = Color.Gray
-        btnRepetir.Font = New Font("Segoe UI", 8F)
+        btnRepetir.Font = New Font("Segoe UI", 12F)
         btnRepetir.ForeColor = Color.White
-        btnRepetir.Location = New Point(101, 26)
+        btnRepetir.Location = New Point(103, 23)
         btnRepetir.Name = "btnRepetir"
-        btnRepetir.Size = New Size(167, 41)
+        btnRepetir.Size = New Size(239, 38)
         btnRepetir.TabIndex = 7
         btnRepetir.Text = "Repetir Último Tempo"
         btnRepetir.UseVisualStyleBackColor = False
@@ -262,21 +268,35 @@ Partial Class Painel
         ' GroupBox2
         ' 
         GroupBox2.BackgroundImageLayout = ImageLayout.Stretch
-        GroupBox2.Controls.Add(btnFade)
+        GroupBox2.Controls.Add(btnCountdown)
         GroupBox2.Controls.Add(btnRepetir)
         GroupBox2.FlatStyle = FlatStyle.Popup
-        GroupBox2.Font = New Font("Segoe UI", 12F)
-        GroupBox2.Location = New Point(48, 363)
+        GroupBox2.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        GroupBox2.Location = New Point(12, 439)
         GroupBox2.Name = "GroupBox2"
-        GroupBox2.Size = New Size(356, 119)
+        GroupBox2.Size = New Size(430, 105)
         GroupBox2.TabIndex = 8
         GroupBox2.TabStop = False
         GroupBox2.Text = "Outras Funções"
         ' 
+        ' btnCountdown
+        ' 
+        btnCountdown.BackColor = Color.Gray
+        btnCountdown.Enabled = False
+        btnCountdown.Font = New Font("Segoe UI", 12F)
+        btnCountdown.ForeColor = Color.White
+        btnCountdown.Location = New Point(103, 62)
+        btnCountdown.Name = "btnCountdown"
+        btnCountdown.Size = New Size(239, 38)
+        btnCountdown.TabIndex = 12
+        btnCountdown.Text = "Mostrar Contador de Espera"
+        btnCountdown.UseVisualStyleBackColor = False
+        ' 
         ' Panel1
         ' 
         Panel1.BackColor = SystemColors.MenuHighlight
-        Panel1.Location = New Point(-11, 309)
+        Panel1.Controls.Add(btnPlay)
+        Panel1.Location = New Point(-11, 281)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(478, 46)
         Panel1.TabIndex = 9
@@ -287,8 +307,8 @@ Partial Class Painel
         GroupBox3.Controls.Add(Button3)
         GroupBox3.Controls.Add(Button2)
         GroupBox3.Controls.Add(Button1)
-        GroupBox3.Font = New Font("Segoe UI", 12F)
-        GroupBox3.Location = New Point(12, 486)
+        GroupBox3.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        GroupBox3.Location = New Point(12, 545)
         GroupBox3.Name = "GroupBox3"
         GroupBox3.Padding = New Padding(0)
         GroupBox3.Size = New Size(430, 95)
@@ -356,33 +376,64 @@ Partial Class Painel
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 7F)
-        Label5.Location = New Point(122, 591)
+        Label5.Location = New Point(122, 646)
         Label5.Name = "Label5"
         Label5.Size = New Size(216, 12)
         Label5.TabIndex = 11
         Label5.Text = "Software Livre - © Copyright by Valdivan Ramos"
         ' 
+        ' btnPosicinaContadorPub
+        ' 
+        btnPosicinaContadorPub.BackColor = Color.FromArgb(CByte(255), CByte(192), CByte(192))
+        btnPosicinaContadorPub.Font = New Font("Segoe UI", 12F)
+        btnPosicinaContadorPub.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        btnPosicinaContadorPub.Location = New Point(104, 62)
+        btnPosicinaContadorPub.Name = "btnPosicinaContadorPub"
+        btnPosicinaContadorPub.Size = New Size(239, 38)
+        btnPosicinaContadorPub.TabIndex = 13
+        btnPosicinaContadorPub.Text = "Posicionar na Tela Pública"
+        btnPosicinaContadorPub.UseVisualStyleBackColor = False
+        ' 
+        ' GroupBox4
+        ' 
+        GroupBox4.Controls.Add(btnPosicinaContadorPub)
+        GroupBox4.Controls.Add(btnFade)
+        GroupBox4.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        GroupBox4.Location = New Point(11, 332)
+        GroupBox4.Name = "GroupBox4"
+        GroupBox4.Size = New Size(430, 105)
+        GroupBox4.TabIndex = 14
+        GroupBox4.TabStop = False
+        GroupBox4.Text = "Contador Público"
+        ' 
         ' Painel
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(453, 608)
+        ClientSize = New Size(453, 665)
+        Controls.Add(GroupBox4)
         Controls.Add(Label5)
         Controls.Add(GroupBox3)
         Controls.Add(GroupBox2)
         Controls.Add(labelInfo)
         Controls.Add(GroupBox1)
-        Controls.Add(btnPlay)
         Controls.Add(contador2)
         Controls.Add(Label1)
         Controls.Add(Panel1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        MaximizeBox = False
+        MaximumSize = New Size(469, 704)
+        MinimumSize = New Size(469, 704)
         Name = "Painel"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Temporizador Overlay  -  Painel de Configuração"
+        TopMost = True
         GroupBox1.ResumeLayout(False)
         GroupBox1.PerformLayout()
         GroupBox2.ResumeLayout(False)
+        Panel1.ResumeLayout(False)
         GroupBox3.ResumeLayout(False)
+        GroupBox4.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -412,5 +463,8 @@ Partial Class Painel
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Label5 As Label
+    Friend WithEvents btnCountdown As Button
+    Friend WithEvents btnPosicinaContadorPub As Button
+    Friend WithEvents GroupBox4 As GroupBox
 
 End Class

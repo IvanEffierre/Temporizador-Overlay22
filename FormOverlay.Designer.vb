@@ -31,7 +31,7 @@ Partial Class FormOverlay
         ' 
         contadorPublico.BackColor = Color.Gainsboro
         contadorPublico.Font = New Font("Segoe UI", 22F, FontStyle.Bold)
-        contadorPublico.Location = New Point(-6, -9)
+        contadorPublico.Location = New Point(-5, -7)
         contadorPublico.MaximumSize = New Size(144, 42)
         contadorPublico.MinimumSize = New Size(144, 42)
         contadorPublico.Name = "contadorPublico"
@@ -49,8 +49,12 @@ Partial Class FormOverlay
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Gainsboro
-        ClientSize = New Size(146, 28)
+        ClientSize = New Size(129, 30)
         Controls.Add(contadorPublico)
+        MaximizeBox = False
+        MaximumSize = New Size(145, 69)
+        MinimizeBox = False
+        MinimumSize = New Size(145, 69)
         Name = "FormOverlay"
         ShowInTaskbar = False
         StartPosition = FormStartPosition.Manual

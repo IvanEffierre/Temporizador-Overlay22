@@ -29,6 +29,7 @@ Partial Class about
         Label4 = New Label()
         Panel1 = New Panel()
         Panel2 = New Panel()
+        Label6 = New Label()
         Button1 = New Button()
         Label5 = New Label()
         Panel2.SuspendLayout()
@@ -38,9 +39,9 @@ Partial Class about
         ' 
         Label1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         Label1.Font = New Font("Segoe UI", 11F)
-        Label1.Location = New Point(18, 208)
+        Label1.Location = New Point(18, 255)
         Label1.Name = "Label1"
-        Label1.Size = New Size(428, 209)
+        Label1.Size = New Size(428, 169)
         Label1.TabIndex = 0
         Label1.Text = "Label1"
         Label1.TextAlign = ContentAlignment.MiddleCenter
@@ -90,6 +91,7 @@ Partial Class about
         ' Panel2
         ' 
         Panel2.BackColor = SystemColors.Control
+        Panel2.Controls.Add(Label6)
         Panel2.Controls.Add(Label2)
         Panel2.Controls.Add(Button1)
         Panel2.Controls.Add(Panel1)
@@ -101,6 +103,16 @@ Partial Class about
         Panel2.Name = "Panel2"
         Panel2.Size = New Size(464, 487)
         Panel2.TabIndex = 7
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Location = New Point(91, 252)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(285, 15)
+        Label6.TabIndex = 9
+        Label6.Text = "_______________________________________________________ "
+        Label6.TextAlign = ContentAlignment.TopCenter
         ' 
         ' Button1
         ' 
@@ -117,7 +129,7 @@ Partial Class about
         Label5.Anchor = AnchorStyles.None
         Label5.CausesValidation = False
         Label5.Font = New Font("Segoe UI", 20F, FontStyle.Bold)
-        Label5.Location = New Point(-28, 222)
+        Label5.Location = New Point(-28, 209)
         Label5.Name = "Label5"
         Label5.Size = New Size(521, 50)
         Label5.TabIndex = 8
@@ -136,6 +148,7 @@ Partial Class about
         ShowInTaskbar = False
         StartPosition = FormStartPosition.CenterParent
         Text = "Sobre o Temporizador Overlay"
+        TopMost = True
         Panel2.ResumeLayout(False)
         Panel2.PerformLayout()
         ResumeLayout(False)
@@ -149,4 +162,5 @@ Partial Class about
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Button1 As Button
     Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
 End Class

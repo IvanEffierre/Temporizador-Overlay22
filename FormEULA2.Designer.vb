@@ -189,6 +189,7 @@ Partial Class FormEULA2
         ShowInTaskbar = False
         StartPosition = FormStartPosition.CenterParent
         Text = "Temporizador Overlay - Aceite os Termos de Uso para Prosseguir"
+        TopMost = True
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         ResumeLayout(False)

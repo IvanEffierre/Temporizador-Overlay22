@@ -93,16 +93,19 @@
         ExibirConteudo(
             "1. Visão Geral",
             "",
-            "O Temporizador Overlay é um contador padrão, regressivo desenvolvido para facilitar o controle de tempo em suas atividades, podendo ser iniciado de forma regressiva ou progressiva.",
+            "O Temporizador Overlay é um contador padrão, desenvolvido para facilitar o controle de tempo em suas atividades, podendo ser iniciado de forma regressiva ou progressiva.",
             "",
             "Principais recursos:",
+            "• Desenvolvido para trabalhar com um ou mais monitores",
             "• Configuração de horas, minutos e segundos",
             "• Alerta visual piscante nos últimos 30 segundos",
             "• Permitir estouro de tempo (contagem crescente)",
             "• Contador público (Tela Overlay) visível ou não",
             "• Repetição rápida do último tempo configurado",
-            "• Pode ser posicionado em qualquer parte da Tela",
+            "• Pode ser posicionado em qualquer parte da tela (monitor)",
+            "• Pode ser posicionado automaticamente na tela do público",
             "• Funciona em Tela Principal ou Secundária",
+            "• Pode exibir contador de espera decrescente para abertura do evento",
             "",
             "Use o painel de configuração para acessar todas as funções.",
             ""
@@ -122,6 +125,7 @@
             "3. Informe os segundos.",
             "4. Clique em ""Configurar / Definir"".",
             "Assim, o tempo configurado será utilizado como referência para a contagem regressiva.",
+            "OBS.: Em contagem regressiva o contador abandona a contagem ao final do tempo decorrido. Para seguir a contagem excedente, permita a ação marcando a opção a opção ""Permitir Estouro de Tempo"".",
             "",
             "",
             "Para Tempo Progressivo",
@@ -132,6 +136,7 @@
             "2. Marque a opção ""Permitir Estouro de Tempo"".",
             "3. Clique em ""Configurar / Definir"".",
             "Assim, o tempo configurado será utilizado como referência para a contagem progressiva",
+            "OBS.: A contagem progressiva somente é possível permitindo o estouro de tempo",
             ""
             )
 
@@ -147,7 +152,8 @@
             "",
             "Durante a execução, o contador será atualizado a cada segundo, tanto na área do Painel de Configuração, quanto na Tela do Público.",
             "",
-            "Quando necessário, pressione novamente o botão para interromper a contagem."
+            "Quando necessário, pressione novamente o botão para interromper a contagem.",
+            ""
         )
 
     End Sub
@@ -162,7 +168,8 @@
             "",
             "Esse recurso permite identificar rapidamente que o tempo configurado está próximo do fim.",
             "",
-            "O comportamento visual faz o contador piscar em ambas as telas, além de aplicar destaque em cor vermelha envolvendo o contador."
+            "O comportamento visual faz o contador piscar em ambas as telas, além de aplicar destaque em cor vermelha envolvendo o contador.",
+            ""
         )
 
     End Sub
@@ -177,7 +184,8 @@
             "",
             "Quando essa função está habilitada, o contador passa a apresentar o tempo excedido de forma crescente, caso contrário, o contador se encerra ao zerar o tempo decorrido.",
             "",
-            "Esse recurso é útil quando é importante saber quanto tempo ultrapassou o limite inicialmente definido ou para monitorar o tempo de forma crescente."
+            "Esse recurso é útil quando é importante saber quanto tempo ultrapassou o limite inicialmente definido ou para monitorar o tempo de forma crescente.",
+            ""
         )
 
     End Sub
@@ -192,12 +200,15 @@
             "",
             "Esse recurso é útil para apresentações, aulas, reuniões, palestras e outras situações em que o tempo precisa permanecer visível.",
             "",
-            "O botão ""Esconder / Mostrar Contador Público"" permite controlar a exibição da Tela Overlay.",
+            "O botão ""Esconder / Mostrar Contador Público"" permite controlar a exibição da Tela Overlay que é a tela pública do Software.",
             "",
             "",
             "6.1 Posicionando a Tela Overlay",
-            "A Tela Overlay pode ser movida através da sua barra de título. Basta clicar e segurar (com o ponteiro do mouse na barra de título) para mover livremente a Tela Overlay para o local de exibição desejado.",
+            "A Tela Overlay pode ser movida através da sua barra de título. Basta clicar e segurar (com o ponteiro do mouse na barra de título) para mover livremente a Tela Overlay para o local de exibição desejado no monitor.",
             "Ao posicionar no local desejado, recomenda-se esconder a barra de título da Tela Overlay. Para tanto, basta dar um duplo clique no contador da Tela Overlay e a barra de título será ocultada, deixando apenas o contador visível. Para ativar novamente a barra de título, basta dar um novo duplo clique no contador.",
+            "",
+            "Caso deseje posicionar o contador público de forma automática, basta utilizar o botão ""Posicionar na Tela Pública."" Desta forma o contador público será posicionado automaticamente na tela visível ao público.",
+            "OBS.: Caso o sistema detecte dois ou mais monitores, utilizará o monitor secundário. Caso contrário, utilizará o monitor primário-padrão do sistema. Nesse recurso, o Sotfware calcula a proporção e resolução da tela e posiciona o contador público no topo direito da tela e esconde a barra de título automaticamente.",
             ""
         )
 
@@ -211,7 +222,8 @@
             "",
             "O botão ""Repetir Tempo"" permite restaurar rapidamente o último tempo configurado.",
             "",
-            "Esse recurso é especialmente útil quando o mesmo intervalo de tempo precisa ser utilizado várias vezes."
+            "Esse recurso é especialmente útil quando o mesmo intervalo de tempo precisa ser utilizado várias vezes.",
+            ""
         )
 
     End Sub
@@ -226,9 +238,10 @@
             "• Verifique se a Tela Overlay está visível quando precisar acompanhar o tempo.",
             "• Utilize o recurso de repetição quando trabalhar com intervalos iguais.",
             "• Utilize o alerta visual para acompanhar os momentos finais da contagem.",
-            "• Em apresentações, posicione o contador público em uma área de fácil visualização."
-        )
-
+            "• Em apresentações, posicione o contador público em uma área de fácil visualização.",
+            "• Em apresentações, considere utilizar o botão ""Posicionar na Tela Pública"" para um ajuste mais refinado.",
+            ""
+            )
     End Sub
 
 
@@ -244,7 +257,7 @@
             "4. Link para Repositório GitHub Oficial desse projeto",
             "",
             "Não foram configurados atalhos de teclado para este software.",
-            "Em resumo, esté software é de uso livre, pode ser copiado e distribuido livremente, mas sua comercialização sem a expressa autorização do detentor dos direitos autorais é totlamente vedada.",
+            "",
             "Em caso de dúvidas, consulte a documentação e o Repositório para obter ajuda, informações e atualizações disponíveis.",
             ""
        )

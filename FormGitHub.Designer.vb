@@ -167,6 +167,7 @@ Partial Class FormGitHub
         ShowInTaskbar = False
         StartPosition = FormStartPosition.CenterParent
         Text = "FormGitHub"
+        TopMost = True
         ResumeLayout(False)
         PerformLayout()
     End Sub

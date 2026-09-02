@@ -1,48 +1,337 @@
-﻿# Contrato de Licença de Usuário Final (EULA)
+﻿# CONTRATO DE LICENÇA DE USUÁRIO FINAL (EULA)
 
-**Software:** Temporizador Overlay
-**Versão:** 1.0
-**Autor:** Valdivan Ramos
-**Ano:** 2026
+# LICENÇA DE USO, DISTRIBUIÇÃO E MODIFICAÇÃO
 
-## 1. Aceitação
+## SOFTWARE TEMPORIZADOR-OVERLAY
 
-Ao instalar, executar ou utilizar o software **Temporizador Overlay**, o usuário declara que leu e concorda com os termos deste Contrato de Licença de Usuário Final (EULA).
+**Copyright © 2026 Valdivan Ramos. Todos os direitos reservados.**
 
-## 2. Licença
-
-O **Temporizador** é distribuído sob a **Licença MIT**, disponível no arquivo `LICENSE` que acompanha o software e no repositório oficial do projeto.
-
-Nos termos da Licença MIT, é permitido utilizar, copiar, modificar, publicar, distribuir (sempre gratuitamente) e incorporar este software em outros projetos, desde que o aviso de copyright e o texto da licença sejam preservados. É expressamente proibida a venda desde software Temporizador-Overlay sem a autorização do detentor dos direitos autorais.
-
-## 3. Código-fonte
-
-O código-fonte oficial do software está disponível publicamente no GitHub do desenvolvedor (https://github.com/IvanEffierre).
-
-## 4. Limitação de responsabilidade
-
-O software é fornecido **“como está” (AS IS)**, sem qualquer garantia, expressa ou implícita, incluindo, mas não se limitando, às garantias de comercialização, adequação a um propósito específico e ausência de violação de direitos.
-
-Em nenhuma hipótese o autor será responsável por perdas de dados, interrupções de atividades, falhas durante apresentações, eventos, transmissões, aulas ou qualquer dano direto ou indireto decorrente do uso ou da impossibilidade de uso do software.
-
-## 5. Privacidade
-
-O **Temporizador Overlay** não coleta, armazena, transmite ou compartilha automaticamente dados pessoais do usuário.
-
-## 6. Distribuição
-
-Versões modificadas podem ser distribuídas de acordo com os termos da Licença MIT, desde que os avisos de copyright e licença sejam mantidos.
-
-## 7. Direitos autorais
-
-**Copyright (c) 2026 Valdivan Ramos**
-
-Todos os direitos autorais sobre o software pertencem ao autor. A Licença MIT concede permissões amplas de uso, mas não transfere a titularidade dos direitos autorais.
-
-## 8. Foro
-
-Este contrato será interpretado de acordo com as leis da República Federativa do Brasil. Fica eleito o foro da comarca de **Salvador, Bahia**, para dirimir eventuais controvérsias decorrentes deste contrato.
+**Versão da licença: 1.0 — 2026**
 
 ---
 
-Ao utilizar o software, o usuário confirma que compreendeu e aceita os termos acima.
+## 1. IDENTIFICAÇÃO DO SOFTWARE
+
+Esta licença aplica-se ao software denominado **Temporizador-Overlay**, incluindo, conforme disponibilizados pelo autor:
+
+* código-fonte;
+* arquivos executáveis;
+* bibliotecas e componentes desenvolvidos pelo autor;
+* arquivos de configuração;
+* documentação;
+* interfaces;
+* elementos visuais;
+* funcionalidades;
+* versões oficiais e respectivas atualizações.
+
+O termo **"Software"**, utilizado nesta licença, compreende o conjunto desses elementos, individual ou conjuntamente, quando forem de autoria ou titularidade de **Valdivan Ramos**.
+
+---
+
+## 2. TITULARIDADE E DIREITOS AUTORAIS
+
+O Software é protegido pelas normas aplicáveis de propriedade intelectual e direitos autorais.
+
+Os direitos autorais sobre o Software permanecem pertencentes ao seu respectivo titular:
+
+**Valdivan Ramos.**
+
+A disponibilização gratuita do Software, de seu código-fonte ou de versões compiladas **não constitui transferência de propriedade, cessão de direitos autorais ou renúncia aos direitos do autor**.
+
+Salvo autorização expressa e escrita do titular dos direitos, nenhuma disposição desta licença deverá ser interpretada como transferência de titularidade do Software.
+
+---
+
+### 3. CONCESSÃO DE USO
+
+O titular dos direitos autorais concede ao usuário uma autorização **gratuita, pessoal, não exclusiva e não transferível** para utilizar o Software, inclusive em atividades de natureza pessoal, educacional, acadêmica, profissional, institucional ou comercial, desde que não haja comercialização/venda deste Software.
+
+O uso do Software em atividades que gerem receita, remuneração, publicidade, patrocínio, monetização ou qualquer outra forma de benefício econômico **não constitui, por si só, comercialização do Software e não é proibido por esta licença**.
+
+Dessa forma, é permitido, por exemplo, utilizar o Software:
+
+1. em empresas, organizações ou ambientes profissionais;
+2. em transmissões ao vivo, inclusive transmissões monetizadas;
+3. em vídeos, cursos, aulas, treinamentos ou conteúdos disponibilizados mediante pagamento;
+4. em canais, plataformas ou serviços que obtenham receita por publicidade, assinaturas, patrocínios ou outras formas de monetização;
+5. em palestras ou quaisquer tipos de eventos, apresentações ou atividades remuneradas;
+6. como ferramenta auxiliar na prestação de serviços profissionais;
+7. em qualquer outra atividade legítima que gere receita ao usuário, sem comercializar o Software como parte integrante ou isolada de tal atividade.
+
+A autorização acima **não concede o direito de vender, licenciar, sublicenciar, alugar, comercializar ou distribuir o próprio Software mediante cobrança**, nem de cobrar pelo acesso ao Software como produto ou serviço, salvo mediante autorização expressa e escrita do titular.
+
+Em outras palavras, **é permitido ganhar dinheiro utilizando o Software; não é permitido ganhar dinheiro vendendo ou comercializando o próprio Software ou uma versão dele sem autorização do titular.**
+
+
+---
+
+## 4. DISTRIBUIÇÃO GRATUITA
+
+É permitida a distribuição gratuita do Software, original ou modificado, desde que:
+
+a) esta licença acompanhe o Software;
+
+b) os avisos de direitos autorais sejam preservados;
+
+c) os créditos de autoria original sejam mantidos;
+
+d) não seja cobrado qualquer valor pelo Software ou por sua distribuição, ressalvadas despesas razoáveis e diretamente relacionadas ao meio físico de distribuição, quando aplicável;
+
+e) o distribuidor deixe claro que a versão distribuída é gratuita;
+
+f) modificações realizadas por terceiros sejam identificadas como modificações próprias e não sejam apresentadas como sendo uma versão oficial desenvolvida pelo autor original.
+
+---
+
+## 5. MODIFICAÇÕES E OBRAS DERIVADAS
+
+O usuário poderá modificar, adaptar, corrigir ou aprimorar o Software para **fins não comerciais.**
+
+Toda versão modificada deverá:
+
+1. preservar os avisos de copyright existentes;
+2. preservar a identificação da autoria original;
+3. indicar de maneira razoavelmente visível que foram realizadas modificações;
+4. identificar, quando possível, o responsável pelas modificações;
+5. não apresentar a versão modificada como sendo a versão oficial do autor original;
+6. continuar sujeita às restrições de uso comercial estabelecidas nesta licença.
+
+Exemplo de identificação aceitável:
+
+> "Baseado no Temporizador-Overlay, desenvolvido originalmente por Valdivan Ramos. Esta versão contém modificações realizadas por [nome do responsável]."
+
+---
+
+## 6. PRESERVAÇÃO DOS CRÉDITOS
+
+Os créditos referentes à autoria original **não poderão ser removidos, ocultados, substituídos ou alterados de maneira que prejudique a identificação do autor original**.
+
+Em particular, não é permitido:
+
+* remover o nome de **Valdivan Ramos** dos arquivos de autoria;
+* remover avisos de copyright;
+* substituir a autoria original pela autoria de terceiros;
+* apresentar o Software original como sendo de autoria de outra pessoa;
+* utilizar modificações para criar a falsa impressão de que o autor original endossa, patrocina ou participa de determinado projeto, produto ou distribuição.
+
+Os créditos referentes às modificações realizadas por terceiros poderão ser acrescentados, mas **não deverão substituir ou apagar os créditos da autoria original**.
+
+---
+
+## 7. PROIBIÇÃO DE COMERCIALIZAÇÃO
+
+É expressamente proibido, sem autorização prévia e escrita do titular dos direitos:
+
+1. vender o Software;
+2. vender cópias do Software;
+3. vender versões modificadas do Software;
+4. cobrar licença, assinatura, mensalidade ou taxa de acesso pelo Software;
+5. incluir o Software ou suas modificações em produto comercial com a finalidade de obter vantagem econômica diretamente relacionada à sua disponibilização;
+6. utilizar o Software como componente de serviço pago quando a disponibilização do Software fizer parte relevante da contraprestação comercial;
+7. disponibilizar o Software em lojas, marketplaces ou quaisquer plataformas comerciais com finalidade de obtenção de receita;
+8. utilizar o Software como produto pago ou como parte essencial de um produto pago sem autorização expressa do titular;
+9. sublicenciar ou relicenciar o Software para fins comerciais;
+10. utilizar o nome, marca, identidade visual ou autoria do Software para promover produto ou serviço comercial sem autorização.
+
+**A simples utilização do Software em ambiente profissional ou empresarial, quando o usuário não estiver vendendo ou comercializando o próprio Software, não constitui, por si só, comercialização do Software ou de suas modificações.**
+
+---
+
+## 8. VENDA DE VERSÕES MODIFICADAS
+
+A criação de uma **versão modificada não concede ao responsável pela modificação o direito de comercializá-la.**
+
+Mesmo que terceiros realizem alterações substanciais, a versão modificada continuará sujeita às restrições desta licença quando incorporar código, componentes ou partes substanciais do Software original.
+
+Nenhuma modificação poderá ser utilizada como mecanismo para contornar as restrições de comercialização estabelecidas nesta licença.
+
+---
+
+## 9. REDISTRIBUIÇÃO
+
+A redistribuição gratuita é permitida.
+
+Entretanto, o redistribuidor deverá fornecer ao destinatário:
+
+* o Software;
+* esta licença;
+* os avisos de direitos autorais;
+* os créditos de autoria original;
+* informação suficiente para identificar eventuais modificações realizadas.
+
+É proibida a redistribuição que remova deliberadamente informações necessárias para identificar a origem do Software.
+
+---
+
+## 10. NOME, MARCA E IDENTIDADE DO PROJETO
+
+A autorização concedida por esta licença não concede automaticamente qualquer direito sobre:
+
+* nome "Temporizador-Overlay";
+* logotipos;
+* marcas;
+* identidade visual;
+* imagens;
+* ícones;
+* nomes comerciais;
+* outros elementos de identificação associados ao projeto.
+
+O usuário poderá identificar uma versão modificada como sendo baseada no Software original, mas não poderá apresentá-la como versão oficial ou autorizada pelo autor sem autorização expressa.
+
+---
+
+## 11. VERSÕES MODIFICADAS NÃO OFICIAIS
+
+Somente versões publicadas ou expressamente identificadas pelo titular poderão ser consideradas **versões oficiais** do Software.
+
+Uma versão modificada por terceiros deverá ser apresentada como versão modificada, derivada ou não oficial.
+
+O autor original não assume responsabilidade por modificações realizadas por terceiros.
+
+---
+
+## 12. AUSÊNCIA DE GARANTIA
+
+O Software é disponibilizado **"NO ESTADO EM QUE SE ENCONTRA"**, sem garantias expressas ou implícitas, na máxima extensão permitida pela legislação aplicável.
+
+O titular não garante que:
+
+* o Software funcionará sem erros;
+* o Software estará permanentemente disponível;
+* todas as funcionalidades funcionarão em todos os computadores;
+* o Software será compatível com qualquer versão específica de sistema operacional;
+* eventuais falhas serão corrigidas;
+* o Software atenderá a uma finalidade específica do usuário.
+
+O usuário assume a responsabilidade pela utilização do Software e pela avaliação de sua adequação às suas necessidades.
+
+---
+
+## 13. LIMITAÇÃO DE RESPONSABILIDADE
+
+Na máxima extensão permitida pela legislação aplicável, o titular dos direitos não será responsável por danos diretos, indiretos, incidentais, especiais, consequenciais ou outros prejuízos decorrentes do uso, impossibilidade de uso, modificação ou distribuição do Software.
+
+Esta disposição não pretende excluir direitos ou responsabilidades que não possam ser legalmente excluídos ou limitados pela legislação aplicável.
+
+---
+
+## 14. SEGURANÇA E MODIFICAÇÕES DE TERCEIROS
+
+O usuário reconhece que versões modificadas ou redistribuídas por terceiros podem apresentar alterações de funcionamento, segurança ou compatibilidade.
+
+O titular do Software original não garante a integridade, segurança ou funcionamento de versões modificadas que não tenham sido publicadas oficialmente por ele.
+
+---
+
+## 15. VIOLAÇÃO DA LICENÇA
+
+O descumprimento de qualquer condição desta licença implica a **cessação automática das permissões concedidas ao infrator**, na medida permitida pela legislação aplicável.
+
+Em caso de violação, o titular poderá exigir a interrupção da utilização, reprodução ou distribuição não autorizada do Software e adotar as medidas administrativas ou judiciais cabíveis.
+
+A eventual tolerância do titular diante de uma violação específica não constitui renúncia aos seus direitos nem autorização para violações futuras.
+
+---
+
+## 16. AUTORIZAÇÕES ESPECIAIS
+
+O titular poderá, a seu exclusivo critério, conceder autorização específica para determinados usos que não sejam permitidos por esta licença.
+
+Qualquer autorização excepcional deverá ser expressa e documentada pelo detentor dos direitos deste Software.
+
+Uma autorização concedida para determinada pessoa, organização, finalidade ou período não deverá ser interpretada como autorização geral para terceiros.
+
+---
+
+## 17. ALTERAÇÕES DESTA LICENÇA
+
+O titular poderá publicar novas versões desta licença para versões futuras do Software.
+
+Cada versão do Software poderá indicar expressamente qual versão da licença lhe é aplicável.
+
+Alterações futuras desta licença não deverão ser interpretadas como alteração retroativa das condições sob as quais uma versão anterior tenha sido legitimamente licenciada, salvo quando permitido pela legislação aplicável e expressamente estabelecido pelo titular.
+
+---
+
+## 18. LEGISLAÇÃO APLICÁVEL
+
+Esta licença deverá ser interpretada de acordo com a legislação aplicável aos direitos autorais, propriedade intelectual e contratos.
+
+Nenhuma disposição desta licença pretende afastar direitos ou proteções que sejam irrenunciáveis pela legislação aplicável.
+
+---
+
+## 19. SEPARABILIDADE
+
+Caso qualquer disposição desta licença seja considerada inválida, ilegal ou inexequível por autoridade competente, as demais disposições permanecerão em vigor na máxima extensão permitida pela legislação aplicável.
+
+A disposição inválida deverá, quando juridicamente possível, ser interpretada ou ajustada de maneira a preservar, tanto quanto possível, sua finalidade original.
+
+---
+
+## 20. ACEITAÇÃO
+
+Ao utilizar, copiar, modificar, citar ou redistribuir o Software, o usuário declara ter conhecimento das condições desta licença e concordar em respeitá-las.
+
+Caso o usuário não concorde com estas condições, deverá abster-se de utilizar, copiar, modificar ou redistribuir o Software nas formas aqui autorizadas.
+
+---
+
+## 21. RESUMO DOS DIREITOS CONCEDIDOS
+
+| Ação                                      | Permitido?                        |
+| ----------------------------------------- | --------------------------------- |
+| Uso pessoal                               | **SIM**                           |
+| Uso educacional                           | **SIM**                           |
+| Uso acadêmico                             | **SIM**                           |
+| Estudo do código                          | **SIM**                           |
+| Cópia gratuita                            | **SIM**                           |
+| Modificação                               | **SIM, para fins não comerciais** |
+| Distribuição gratuita                     | **SIM**                           |
+| Manter os créditos originais              | **OBRIGATÓRIO**                   |
+| Identificar modificações                  | **OBRIGATÓRIO**                   |
+| Venda do software                         | **NÃO**                           |
+| Venda de versão modificada                | **NÃO**                           |
+| Cobrança de licença                       | **NÃO**                           |
+| Comercialização sem autorização           | **NÃO**                           |
+| Remoção dos créditos                      | **NÃO**                           |
+| Apresentar versão modificada como oficial | **NÃO**                           |
+
+---
+
+## 22. COPYRIGHT
+
+**© 2026 Valdivan Ramos. Todos os direitos reservados.**
+
+Temporizador-Overlay. Software desenvolvido por **Valdivan Ramos**.
+
+A utilização deste Software está condicionada aos termos desta licença.
+
+---
+
+**FIM DA LICENÇA**
+
+
+A utilização do Software está condicionada aos termos deste EULA e da licença que o acompanha.
+
+---
+
+## 18. CONFIRMAÇÃO DO USUÁRIO
+
+Ao selecionar **"Aceito"**, instalar, executar ou utilizar o Software, conforme aplicável, o usuário declara que:
+
+* leu e compreendeu este EULA;
+* teve acesso às condições da licença que acompanha o Software;
+* concorda com as condições de uso estabelecidas;
+* compreende que o Software é disponibilizado gratuitamente;
+* compreende que pode utilizar o Software inclusive em atividades comerciais ou monetizadas;
+* compreende que não pode comercializar, vender ou cobrar pelo próprio Software ou por versões modificadas sem autorização expressa e escrita do titular dos direitos autorais;
+* concorda em preservar os créditos e avisos de autoria original.
+
+Caso não concorde com os termos, o usuário deverá interromper a utilização do Software.
+
+---
+
+**© 2026 Valdivan Ramos — Todos os direitos reservados.**
+
+**Temporizador-Overlay**
